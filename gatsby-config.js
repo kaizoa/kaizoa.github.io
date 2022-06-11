@@ -67,12 +67,40 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     trackingId: `ADD YOUR TRACKING ID HERE`,
-    //   },
-    // },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `G-R9NRWXNWYV`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `KAIZOA`,
+        short_name: `KAIZOA`,
+        start_url: `/`,
+        background_color: `#ffffff`,
+        theme_color: "#ffffff",
+        display: `browser`,
+        icon: `src/images/profile-circle.png`,
+      },
+    },
+    `gatsby-plugin-react-helmet`,
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://kaizoa.github.io/",
+        sitemap: "https://kaizoa.github.io/sitemap.xml",
+        policy: [{ userAgent: "*", allow: "/" }],
+      },
+    },
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: "https://kaizoa.github.io/",
+      },
+    },
     {
       resolve: `gatsby-plugin-feed`,
       options: {
@@ -121,28 +149,11 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: "Gatsby Starter Blog RSS Feed",
+            title: "KAIZOA RSS Feed",
           },
         ],
       },
     },
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
-        start_url: `/`,
-        background_color: `#ffffff`,
-        // This will impact how browsers show your PWA/website
-        // https://css-tricks.com/meta-theme-color-and-trickery/
-        // theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
-      },
-    },
-    `gatsby-plugin-react-helmet`,
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
     `gatsby-plugin-typegen`,
   ],

@@ -5,13 +5,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { IconProp, library } from "@fortawesome/fontawesome-svg-core"
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 import { fab } from "@fortawesome/free-brands-svg-icons"
+import { config } from "@fortawesome/fontawesome-svg-core"
 
+config.autoAddCss = true
 library.add(fab, faEnvelope)
 
 const Bio = () => {
   const data = useStaticQuery<GatsbyTypes.BioQuery>(graphql`
     query Bio {
-      allFile(filter: { fields: { avatar: { eq: "true" } } }) {
+      allFile(filter: { name: { eq: "profile" } }) {
         edges {
           node {
             childImageSharp {

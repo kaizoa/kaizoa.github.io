@@ -69,8 +69,6 @@ type File = Node & {
   readonly birthtimeMs: Maybe<Scalars['Float']>;
   readonly blksize: Maybe<Scalars['Int']>;
   readonly blocks: Maybe<Scalars['Int']>;
-  readonly url: Maybe<Scalars['String']>;
-  readonly fields: Maybe<FileFields>;
   /** Copy file to static directory and return public url to it */
   readonly publicURL: Maybe<Scalars['String']>;
   /** Returns all children nodes filtered by type MarkdownRemark */
@@ -162,11 +160,6 @@ type Internal = {
   readonly type: Scalars['String'];
 };
 
-
-type FileFields = {
-  readonly avatar: Maybe<Scalars['String']>;
-  readonly link: Maybe<Scalars['String']>;
-};
 
 type Directory = Node & {
   readonly sourceInstanceName: Scalars['String'];
@@ -269,11 +262,6 @@ type Site = Node & {
   readonly siteMetadata: Maybe<SiteSiteMetadata>;
   readonly port: Maybe<Scalars['Int']>;
   readonly host: Maybe<Scalars['String']>;
-  readonly polyfill: Maybe<Scalars['Boolean']>;
-  readonly pathPrefix: Maybe<Scalars['String']>;
-  readonly jsxRuntime: Maybe<Scalars['String']>;
-  readonly trailingSlash: Maybe<Scalars['String']>;
-  readonly graphqlTypegen: Maybe<Scalars['Boolean']>;
   readonly id: Scalars['ID'];
   readonly parent: Maybe<Node>;
   readonly children: ReadonlyArray<Node>;
@@ -799,8 +787,6 @@ type Query_fileArgs = {
   birthtimeMs: Maybe<FloatQueryOperatorInput>;
   blksize: Maybe<IntQueryOperatorInput>;
   blocks: Maybe<IntQueryOperatorInput>;
-  url: Maybe<StringQueryOperatorInput>;
-  fields: Maybe<FileFieldsFilterInput>;
   publicURL: Maybe<StringQueryOperatorInput>;
   childrenMarkdownRemark: Maybe<MarkdownRemarkFilterListInput>;
   childMarkdownRemark: Maybe<MarkdownRemarkFilterInput>;
@@ -873,11 +859,6 @@ type Query_siteArgs = {
   siteMetadata: Maybe<SiteSiteMetadataFilterInput>;
   port: Maybe<IntQueryOperatorInput>;
   host: Maybe<StringQueryOperatorInput>;
-  polyfill: Maybe<BooleanQueryOperatorInput>;
-  pathPrefix: Maybe<StringQueryOperatorInput>;
-  jsxRuntime: Maybe<StringQueryOperatorInput>;
-  trailingSlash: Maybe<StringQueryOperatorInput>;
-  graphqlTypegen: Maybe<BooleanQueryOperatorInput>;
   id: Maybe<StringQueryOperatorInput>;
   parent: Maybe<NodeFilterInput>;
   children: Maybe<NodeFilterListInput>;
@@ -1069,11 +1050,6 @@ type FloatQueryOperatorInput = {
   readonly lte: Maybe<Scalars['Float']>;
   readonly in: Maybe<ReadonlyArray<Maybe<Scalars['Float']>>>;
   readonly nin: Maybe<ReadonlyArray<Maybe<Scalars['Float']>>>;
-};
-
-type FileFieldsFilterInput = {
-  readonly avatar: Maybe<StringQueryOperatorInput>;
-  readonly link: Maybe<StringQueryOperatorInput>;
 };
 
 type MarkdownRemarkFilterListInput = {
@@ -1323,9 +1299,6 @@ type FileFieldsEnum =
   | 'birthtimeMs'
   | 'blksize'
   | 'blocks'
-  | 'url'
-  | 'fields.avatar'
-  | 'fields.link'
   | 'publicURL'
   | 'childrenMarkdownRemark'
   | 'childrenMarkdownRemark.id'
@@ -1755,8 +1728,6 @@ type FileFilterInput = {
   readonly birthtimeMs: Maybe<FloatQueryOperatorInput>;
   readonly blksize: Maybe<IntQueryOperatorInput>;
   readonly blocks: Maybe<IntQueryOperatorInput>;
-  readonly url: Maybe<StringQueryOperatorInput>;
-  readonly fields: Maybe<FileFieldsFilterInput>;
   readonly publicURL: Maybe<StringQueryOperatorInput>;
   readonly childrenMarkdownRemark: Maybe<MarkdownRemarkFilterListInput>;
   readonly childMarkdownRemark: Maybe<MarkdownRemarkFilterInput>;
@@ -2107,11 +2078,6 @@ type SiteFieldsEnum =
   | 'siteMetadata.contacts.github'
   | 'port'
   | 'host'
-  | 'polyfill'
-  | 'pathPrefix'
-  | 'jsxRuntime'
-  | 'trailingSlash'
-  | 'graphqlTypegen'
   | 'id'
   | 'parent.id'
   | 'parent.parent.id'
@@ -2245,11 +2211,6 @@ type SiteFilterInput = {
   readonly siteMetadata: Maybe<SiteSiteMetadataFilterInput>;
   readonly port: Maybe<IntQueryOperatorInput>;
   readonly host: Maybe<StringQueryOperatorInput>;
-  readonly polyfill: Maybe<BooleanQueryOperatorInput>;
-  readonly pathPrefix: Maybe<StringQueryOperatorInput>;
-  readonly jsxRuntime: Maybe<StringQueryOperatorInput>;
-  readonly trailingSlash: Maybe<StringQueryOperatorInput>;
-  readonly graphqlTypegen: Maybe<BooleanQueryOperatorInput>;
   readonly id: Maybe<StringQueryOperatorInput>;
   readonly parent: Maybe<NodeFilterInput>;
   readonly children: Maybe<NodeFilterListInput>;
