@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[Endlessly write about everyday life in a diary.]]></description><link>https://kaizoa.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 11 Jun 2022 16:23:54 GMT</lastBuildDate><item><title><![CDATA[Test]]></title><description><![CDATA[heading_1 heading_2 heading_3 あのイーハトーヴォのすきとおった風、夏でも底に冷たさをもつ青いそら、うつくしい森で飾られた、郊外のぎらぎらひかる草の波。 Lorem ipsum dolor sit amet, consectetuer…]]></description><link>https://kaizoa.github.io/20220607-test/</link><guid isPermaLink="false">https://kaizoa.github.io/20220607-test/</guid><pubDate>Mon, 06 Jun 2022 16:51:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;heading_1&quot;&gt;heading_1&lt;/h1&gt;
+&lt;h2 id=&quot;heading_2&quot;&gt;heading_2&lt;/h2&gt;
+&lt;h3 id=&quot;heading_3&quot;&gt;heading_3&lt;/h3&gt;
+&lt;p&gt;あのイーハトーヴォのすきとおった風、夏でも底に冷たさをもつ青いそら、&lt;strong&gt;うつくしい&lt;/strong&gt;&lt;em&gt;森&lt;/em&gt;&lt;strong&gt;で&lt;/strong&gt;&lt;del&gt;飾られた&lt;/del&gt;&lt;code class=&quot;language-text&quot;&gt;モリーオ市&lt;/code&gt;、&lt;strong&gt;郊外のぎらぎらひかる草の波&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit. &lt;strong&gt;Maecenas&lt;/strong&gt; &lt;em&gt;porttitor&lt;/em&gt; &lt;strong&gt;congue&lt;/strong&gt; &lt;del&gt;massa&lt;/del&gt;. &lt;code class=&quot;language-text&quot;&gt;Fusce&lt;/code&gt; &lt;strong&gt;posuere&lt;/strong&gt;, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;$echo&lt;/span&gt; helloworld
+helloworld&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;bulleted_list_item 1
+&lt;ul&gt;
+&lt;li&gt;bulleted_list_item 1-1
+&lt;ul&gt;
+&lt;li&gt;bulleted_list_item 1-1-1&lt;/li&gt;
+&lt;li&gt;bulleted_list_item 1-1-2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;bulleted_list_item 1-2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;bulleted_list_item 2&lt;/li&gt;
+&lt;li&gt;bulleted_list_item 3&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;numbered_list_item 1&lt;/li&gt;
+&lt;li&gt;numbered_list_item 2&lt;/li&gt;
+&lt;li&gt;numbered_list_item 3&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;quote 1&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;quote 2&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;{{&amp;#x3C; embed ”&lt;a href=&quot;https://ja.wikipedia.org/wiki/%E3%81%B2%E3%82%88%E3%81%93&quot;&gt;https://ja.wikipedia.org/wiki/%E3%81%B2%E3%82%88%E3%81%93&lt;/a&gt;” &gt;}}&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://ja.wikipedia.org/wiki/%E3%81%B2%E3%82%88%E3%81%93&quot;&gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;{{&amp;#x3C; callout ”😆”&gt;}}
+callout
+{{&amp;#x3C; /callout &gt;}}&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 512px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEGElEQVQ4y3VVa2wUVRQeIOlvfmrEKMYqhZa2uzNTixJjQKMxRlOqQijddtvdmT4iWBJSoag/FB+Ife1j5u62dum2FSRCEEOXQpvuNlhQQ3dTLWoIiEEIlFjUFtuZPcecuzPFpHWTk7lz597vnvOd734reJ26YMWSyryAPV6hymyPKrO416nfrC4IpqsLgoYi6tdUmcVUmdV7CrXlHofG92WCjwXBGiytLtSEN9Z3CoqoNyoS+7Mi149bs9uQnnXrwlj7RAhdOT4+584LoCqx371O3aVITKjKD9rAAh8QWHmOL0sR9RMeh4bbHm/Hd149PDd0aNy8fvkPuHN7Bu5MTsNvP0+mvw5/b+x6IWrQGq9TR6+o+2uLw4J7baY6wZ0XsDM7UV0QRI9Dmx3oSaUREf+ZmYMLQ5ehv+sCnOpOwvjZq4CIFHj4wFnTtdpnVBdqqIh6qyISVdrSDGei3kiZEVgyfoVvOK59C/VPdsDWR1vRjrLH2rBhYwTiX/7I1wwf+QG8Tt2kvV5R32SXvII4oxLszNq3n4TNK1uQMlZlRnzNh3ttALesbMEjraNw+/pf2LAhYlblBwnwosehZQnUTSJ+b8nncwT2lf4dbHmkBWuKQlQK8tOd9572HJVa/1QH0AHzWTr1UgKMl2W3YeLohJlOA9QVh4FOVCQ2D2LHPKjE7O+gSAy8om5Y37oERWI3y3N82PNBghM+EE0ivVsdXJAhZVaZ689EXoBkBe68gGmtOSd4HFqauHn9oWbo/WiEkz3Qk8LyVe0LQQs1rC0O4+6XevEtK5pe6YNdz3eDtWaGRGlsf/oz7H5vmLiD6L44LgZKJVLm+z3H+XcAQNPgPYTUyK9AolckNkX6u+Za7cOrP02mE0cnoOT+T7Dnw8QCUAIkbnc+exA73x7EjqYz2Ll3EGfvGnC+/xeTJKXKLEFNidHLscB5g07rj4xB6QMHFgcVdQ5KCbz24Ke45+U+znto92l+c2qKQkECrKe72fhij3H371lewqnuJP4fqC2nijV+vJS6wa9lTVHIpGapEnuOmrKcLjqd8EXzNyZmfouD5vh4EF+Dh8Z5A31v9ht0mCqz0YaNEUGwLMhFp1fm+o3TvSmwQWORMSi5bz9G3880KnZwjEwDLiVv8DV9H4+kt61qtzW5nrC425AFkWtQ6yvW+M3ovrg5dWuag44cm4Cy7DZbUjymbk2Db8dJg4OJXPQNlo8u44DkZ3XrwgTaSplS+Tue6TK73h0yksNXzMDOGGx+uBk6ms7wOUViZrmVGYFxpxHv+SEHJT/LWJC+SZXZReomAZMCSNC2DmmON0Bmo1Sm5VZLbOcX/vMXwJ2beKjKD2apMiutKQp1qTI7RzfA49CmVInFSRrUzYYNEZv/ZbTX48gA/gsz1ZgnQYjBcAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/4a9773549091c227cd2eb82ccd9c5e3a/81b7c/3ccebf691925c38970a2.webp 158w,
+/static/4a9773549091c227cd2eb82ccd9c5e3a/6ea66/3ccebf691925c38970a2.webp 315w,
+/static/4a9773549091c227cd2eb82ccd9c5e3a/bd5dd/3ccebf691925c38970a2.webp 512w&quot;
+              sizes=&quot;(max-width: 512px) 100vw, 512px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/4a9773549091c227cd2eb82ccd9c5e3a/c26ae/3ccebf691925c38970a2.png 158w,
+/static/4a9773549091c227cd2eb82ccd9c5e3a/6bdcf/3ccebf691925c38970a2.png 315w,
+/static/4a9773549091c227cd2eb82ccd9c5e3a/01e7c/3ccebf691925c38970a2.png 512w&quot;
+            sizes=&quot;(max-width: 512px) 100vw, 512px&quot;
+            type=&quot;image/png&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/4a9773549091c227cd2eb82ccd9c5e3a/01e7c/3ccebf691925c38970a2.png&quot;
+            alt=&quot;gatsby&quot;
+            title=&quot;gatsby&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAQEAAwAAAAAAAAAAAAAAAAIDAQQF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQIE/9oADAMBAAIQAxAAAAH1I16+e5bNMXJDyE//xAAbEAEBAAEFAAAAAAAAAAAAAAABABECEiEiMf/aAAgBAQABBQLEzavA7pymbaZv/8QAFxEAAwEAAAAAAAAAAAAAAAAAARARIf/aAAgBAwEBPwEDFV//xAAXEQADAQAAAAAAAAAAAAAAAAABAhAR/9oACAECAQE/AXch8mT/xAAXEAEAAwAAAAAAAAAAAAAAAAAQICFh/9oACAEBAAY/AoaW/wD/xAAbEAEAAgMBAQAAAAAAAAAAAAABABEQITFBUf/aAAgBAQABPyE+pTkG4DvU9tqxAFCyAWDeP//aAAwDAQACAAMAAAAQfBDB/8QAFhEBAQEAAAAAAAAAAAAAAAAAAREQ/9oACAEDAQE/EDW4KS5//8QAGBEBAAMBAAAAAAAAAAAAAAAAAQAQESH/2gAIAQIBAT8QKh5MiF3K/8QAGhAAAwEBAQEAAAAAAAAAAAAAAAERITFBYf/aAAgBAQABPxBfeDVJayLi2zSrU5twUqaJZ8+edEUO6jPGYaxLWU//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;picture&gt;
+          &lt;source
+              srcset=&quot;/static/8db6e229a86300f09d2c9cfd8aeaedec/81b7c/43643bbb58e1f8833d84.webp 158w,
+/static/8db6e229a86300f09d2c9cfd8aeaedec/6ea66/43643bbb58e1f8833d84.webp 315w,
+/static/8db6e229a86300f09d2c9cfd8aeaedec/8aab1/43643bbb58e1f8833d84.webp 630w,
+/static/8db6e229a86300f09d2c9cfd8aeaedec/a70f5/43643bbb58e1f8833d84.webp 945w,
+/static/8db6e229a86300f09d2c9cfd8aeaedec/928c4/43643bbb58e1f8833d84.webp 1120w&quot;
+              sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+              type=&quot;image/webp&quot;
+            /&gt;
+          &lt;source
+            srcset=&quot;/static/8db6e229a86300f09d2c9cfd8aeaedec/ff44c/43643bbb58e1f8833d84.jpg 158w,
+/static/8db6e229a86300f09d2c9cfd8aeaedec/a6688/43643bbb58e1f8833d84.jpg 315w,
+/static/8db6e229a86300f09d2c9cfd8aeaedec/828fb/43643bbb58e1f8833d84.jpg 630w,
+/static/8db6e229a86300f09d2c9cfd8aeaedec/0ede0/43643bbb58e1f8833d84.jpg 945w,
+/static/8db6e229a86300f09d2c9cfd8aeaedec/12286/43643bbb58e1f8833d84.jpg 1120w&quot;
+            sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+            type=&quot;image/jpeg&quot;
+          /&gt;
+          &lt;img
+            class=&quot;gatsby-resp-image-image&quot;
+            src=&quot;/static/8db6e229a86300f09d2c9cfd8aeaedec/828fb/43643bbb58e1f8833d84.jpg&quot;
+            alt=&quot;chicken&quot;
+            title=&quot;chicken&quot;
+            loading=&quot;lazy&quot;
+            decoding=&quot;async&quot;
+            style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+          /&gt;
+        &lt;/picture&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;math math-inline&quot;&gt;&lt;span class=&quot;katex&quot;&gt;&lt;span class=&quot;katex-mathml&quot;&gt;&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;E&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;M&lt;/mi&gt;&lt;msup&gt;&lt;mi&gt;C&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;annotation encoding=&quot;application/x-tex&quot;&gt;E = MC^2&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&quot;katex-html&quot; aria-hidden=&quot;true&quot;&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.68333em;vertical-align:0em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot; style=&quot;margin-right:0.05764em;&quot;&gt;E&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2777777777777778em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mrel&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mspace&quot; style=&quot;margin-right:0.2777777777777778em;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;base&quot;&gt;&lt;span class=&quot;strut&quot; style=&quot;height:0.8141079999999999em;vertical-align:0em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;mord mathnormal&quot; style=&quot;margin-right:0.10903em;&quot;&gt;M&lt;/span&gt;&lt;span class=&quot;mord&quot;&gt;&lt;span class=&quot;mord mathnormal&quot; style=&quot;margin-right:0.07153em;&quot;&gt;C&lt;/span&gt;&lt;span class=&quot;msupsub&quot;&gt;&lt;span class=&quot;vlist-t&quot;&gt;&lt;span class=&quot;vlist-r&quot;&gt;&lt;span class=&quot;vlist&quot; style=&quot;height:0.8141079999999999em;&quot;&gt;&lt;span style=&quot;top:-3.063em;margin-right:0.05em;&quot;&gt;&lt;span class=&quot;pstrut&quot; style=&quot;height:2.7em;&quot;&gt;&lt;/span&gt;&lt;span class=&quot;sizing reset-size6 size3 mtight&quot;&gt;&lt;span class=&quot;mord mtight&quot;&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;{{&amp;#x3C;details “toggle list”&gt;}}&lt;/p&gt;
+&lt;p&gt;toggle inside&lt;/p&gt;
+&lt;p&gt;{{&amp;#x3C; /details &gt;}}&lt;/p&gt;</content:encoded></item></channel></rss>
