@@ -1,0 +1,70 @@
+{
+  "name": "kaizoa.github.io",
+  "private": true,
+  "description": "Endlessly write about everyday life in a diary.",
+  "version": "0.0.1",
+  "author": "Kai Suzuki <kai.zoa1@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/kaizoa/kaizoa.github.com/issues"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.1.18",
+    "@notionhq/client": "^1.0.4",
+    "@types/react-helmet": "^6.1.5",
+    "gatsby": "^4.15.2",
+    "gatsby-plugin-feed": "^4.15.1",
+    "gatsby-plugin-gatsby-cloud": "^4.15.0",
+    "gatsby-plugin-google-analytics": "^4.15.0",
+    "gatsby-plugin-image": "^2.15.1",
+    "gatsby-plugin-manifest": "^4.15.1",
+    "gatsby-plugin-offline": "^5.15.1",
+    "gatsby-plugin-react-helmet": "^5.15.0",
+    "gatsby-plugin-sharp": "^4.15.1",
+    "gatsby-plugin-typegen": "^2.2.4",
+    "gatsby-remark-autolink-headers": "^5.16.0",
+    "gatsby-remark-copy-linked-files": "^5.15.0",
+    "gatsby-remark-images": "^6.15.1",
+    "gatsby-remark-images-medium-zoom": "^1.7.0",
+    "gatsby-remark-katex": "^6.16.0",
+    "gatsby-remark-prismjs": "^6.15.0",
+    "gatsby-remark-responsive-iframe": "^5.15.0",
+    "gatsby-remark-smartypants": "^5.15.0",
+    "gatsby-source-filesystem": "^4.15.0",
+    "gatsby-transformer-remark": "^5.15.1",
+    "gatsby-transformer-sharp": "^4.15.1",
+    "prism-themes": "^1.9.0",
+    "prismjs": "^1.28.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-helmet": "^6.1.0",
+    "typeface-merriweather": "0.0.72",
+    "typeface-montserrat": "0.0.75"
+  },
+  "devDependencies": {
+    "prettier": "^2.6.2",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
+  },
+  "homepage": "https://github.com/kaizoa/kaizoa.github.com#readme",
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "0BSD",
+  "main": "n/a",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaizoa/kaizoa.github.com.git"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  }
+}
